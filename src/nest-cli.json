@@ -1,0 +1,29 @@
+{
+  "monorepo": true,
+  "root": "apps/todos/main",
+  "sourceRoot": "apps/todos/main/src",
+  "compilerOptions": {
+    "webpack": true,
+    "tsConfigPath": "apps/todos/main/tsconfig.app.json"
+  },
+  "projects": {
+    "constroller": {
+      "type": "application",
+      "root": "apps/todos/constroller",
+      "entryFile": "main",
+      "sourceRoot": "apps/todos/constroller/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/todos/constroller/tsconfig.app.json"
+      }
+    },
+    "main": {
+      "type": "application",
+      "root": "apps/todos/main",
+      "entryFile": "main",
+      "sourceRoot": "apps/todos/main/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/todos/main/tsconfig.app.json"
+      }
+    }
+  }
+}
