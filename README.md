@@ -129,16 +129,16 @@ Fitur utama:
 
 ## 4) Screenshot Hasil Uji Coba
 *GET /todos*  
-![GET /todos](./secrenshoot/get.png)
+![GET /todos](./screenshots/get.png)
 
 *POST /todos*  
-![POST /todos](./secrenshoot/PostToDos.png)
+![POST /todos](./screenshots/PostToDos.png)
 
 *PUT /todos/:id*  
-![PUT /todos/:id](./secrenshoot/PutToDos.png)
+![PUT /todos/:id](./screenshots/PutToDos.png)
 
 *DELETE /todos/:id*  
-![DELETE /todos/:id](./secrenshoot/DeleteToDos.png)
+![DELETE /todos/:id](./screenshots/DeleteToDos.png)
 
 ---
 
