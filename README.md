@@ -142,3 +142,30 @@ Fitur utama:
 
 ---
 
+
+ # 📘 CRUD Siswa (Tanpa Database)
+
+## 👤 Identitas
+- Nama : Aveline Voleta Wardani  
+- Kelas : XI RPL 1
+- Absen : 07
+
+---
+
+## 📖 Deskripsi
+Proyek ini adalah implementasi sederhana CRUD (Create, Read, Update, Delete) data siswa menggunakan **NestJS**.  
+Data tidak disimpan di database, melainkan di dalam **array memory**.  
+
+Struktur data siswa:
+```json
+{
+  "nisn": "string",
+  "nama": "string",
+  "alamat": "string",
+  "umur": number
+}
+## Screenshot Hasil Uji Coba
+*GET /siswa* 
+![GET /siswa]()
+
+
