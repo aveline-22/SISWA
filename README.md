@@ -97,7 +97,7 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 
 Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
 
-# 📋 Todo List API - NestJS
+<!-- # 📋 Todo List API - NestJS
 
 ## 1) Identitas
 - *Nama:* Aveline Voleta Wardani 
@@ -138,7 +138,7 @@ Fitur utama:
 ![PUT /todos/:id](./screenshots/put.png)
 
 *DELETE /todos/:id*  
-![DELETE /todos/:id](./screenshots/delete.png)
+![DELETE /todos/:id](./screenshots/delete.png) -->
 
 ---
 
@@ -164,8 +164,19 @@ Struktur data siswa:
   "alamat": "string",
   "umur": number
 }
-## Screenshot Hasil Uji Coba
-*POST /siswa* 
-![POST /apps](./ss/post.png)
 
+## Screenshot Hasil Uji Coba
+*GET /todos*  
+![GET /todos](./screenshots/GetToDos.png)
+
+*POST /todos*  
+![POST /todos](./screenshots/post.png)
+
+*PUT /todos/:id*  
+![PUT /todos/:id](./screenshots/put.png)
+
+*DELETE /todos/:id*  
+![DELETE /todos/:id](./screenshots/delete.png)
+
+---
 
