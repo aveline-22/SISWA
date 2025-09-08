@@ -165,7 +165,7 @@ Struktur data siswa:
   "umur": number
 }
 ## Screenshot Hasil Uji Coba
-*GET /siswa* 
-![GET /siswa]()
+*POST /siswa* 
+![POST /apps](./ss/post.png)
 
 
