@@ -172,9 +172,5 @@ Struktur data siswa:
 | POST   | `/siswa`     | Menambahkan siswa baru             |
 | PUT    | `/siswa/:id` | Mengubah data siswa                |
 | DELETE | `/siswa/:id` | Menghapus siswa berdasarkan NISN   |
-
-
-
-
 ---
 
