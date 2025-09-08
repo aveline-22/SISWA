@@ -162,21 +162,19 @@ Struktur data siswa:
   "nisn": "string",
   "nama": "string",
   "alamat": "string",
-  "umur": number
+  "umur": "number"
 }
 
-## Screenshot Hasil Uji Coba
-*GET /todos*  
-![GET /todos](./screenshots/GetToDos.png)
+| Method | Endpoint     | Deskripsi                          |
+| ------ | ------------ | ---------------------------------- |
+| GET    | `/siswa`     | Menampilkan semua siswa            |
+| GET    | `/siswa/:id` | Menampilkan siswa berdasarkan NISN |
+| POST   | `/siswa`     | Menambahkan siswa baru             |
+| PUT    | `/siswa/:id` | Mengubah data siswa                |
+| DELETE | `/siswa/:id` | Menghapus siswa berdasarkan NISN   |
 
-*POST /todos*  
-![POST /todos](./screenshots/post.png)
 
-*PUT /todos/:id*  
-![PUT /todos/:id](./screenshots/put.png)
 
-*DELETE /todos/:id*  
-![DELETE /todos/:id](./screenshots/delete.png)
 
 ---
 
